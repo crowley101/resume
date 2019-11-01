@@ -1,0 +1,99 @@
+---
+name: Kevin
+surname: Yeo
+position: "Analytics Professional"
+address: "39 Macrossan Cres, Latham ACT 2615"
+phone: +61 415 803 209
+email: "kevin.e.yeo@gmail.com"
+github: crowley101
+linkedin: "kevin-yeo-0308b930"
+date: "`r format(Sys.time(), '%B %Y')`"
+output: vitae::awesomecv
+profilepic: kyprofile.jpg
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# Profile
+\small
+As an analytics professional my career has focused on providing business intelligence (BI) and reporting solutions in a variety of platforms and business environments with over ten years’ experience building end-to-end BI solutions for government agencies and education providers. My skills include team leadership, business analysis, process mapping, Extract Transform Load (ETL) design, ETL implementation, report design, visual analytics, modeling, and report automation.  
+I have built on experience as a web designer and operational roles in the private, government and educational sectors. I am currently studying a Master of Data Science, and have previously studied international relations, philosophy, and national security policy at the Australian National University.  
+I have excellent interpersonal skills, extensive experience leading small teams, and working with internal and external stakeholders. I have delivered several major programs of work including:
+* An end-to-end reporting solution for the Asylum Seekers Assistance Scheme using SAS and SAS visual analytics
+
+* Project managment of an interdepartmental payment system for asylum seekers
+
+* Delivery of an enterprise BI reporting solution for Status Resolution Support Services using SAP Business Objects;
+
+* Development of a Functional Directory and executive reporting dashboards for DIBP using Microsoft SQL and Tableau;
+
+* Interactive enrolment reporting for University of Canberra using Oracle and Microsoft Power BI.
+
+* Synthesis of University Admissions reporting from multipule sources implimenting Soap API Schemas  
+
+I continuously develop my technical skills through formal training and practical experience, with considerable experience programming in SAS, SAP Business Objects, SQL (DB2, Microsoft SQL, and Oracle), R, Access, and Excel. I have worked in Windows and Linux operating systems and have experience working in DB2 and SAP Data Warehouses, SAS Datamarts, and Microsoft SQL structured environments. I have provided BI solutions in Tableau, SAP Business Objects, SAS, Power BI, Access, and Excel.  
+Throughout my career, I have made an effort to develop my leadership and management skills. I take an egalitarian approach to managing people, I believe everyone is unique and look to help and support the people I work with to develop their skills and advance their careers.
+
+# Professional Experience
+
+```{r}
+library(tibble)
+tribble(
+  ~ What, ~ When, ~ With, ~ Where, ~ Why,
+  "Senior Business Intelligence Developer","2016 - Present","University of Canberra","Canberra","In this role I have taken the lead in delivering several key reporting and analytics capabilities for the University. These include a roll out plan for Microsoft Power BI, currently at the implimentation stage. A new admissions reporting capability utilising dimensional modelling and sythesising data across multipule sources using a combination of direct DB access and APIs. Admissions Transparency reporting for the Department of Education and Training utilizing existince EDW assets but ensuring adhearance to govenrment requirments.",
+"Assistant Director - Business Intelligence Lead","2015 - 2016","Department of Home Affairs","Canberra","Development of a functional accountability model/directory for the department using Microsoft SQL Server, SAS, and Tableau. Delivery of Branch Planning database for executive level reporting on performance for the Department using Microsoft SQL Server, and Tableau.",
+"Senior Data Analyst","2013 - 2015","Department of Home Affairs","Canberra","Led SMART team of four to develop and operate an end to end business intelligence reporting system for operational and executive purposes using DB2 data warehouse and Business Objects reporting solution with SAS for analytics.",
+"Assistant Director - IT Coordinator","2014","Department of Home Affairs","Canberra","Led a project team that provided IT coordination for the delivery of a new Seibel Service including requirements development, testing, and implementation. Led role in relationship management and negotiation between internal business and ICT teams, and external agency partners.",
+"Pilot Support Manager","2014","Department of Home Affairs","Canberra","Led Pilot Support Team of four to provide effective interdepartmental support and communication during initial testing of and interdepartmental payment system. Conducted business analysis of end to end communication process to identify risks and gaps and provide interim and strategic solutions."
+) %>% 
+  detailed_entries(What, When, With, Where, Why)
+```
+
+\newpage
+# Education
+
+```{r}
+library(tibble)
+tribble(
+  ~ What, ~ When, ~ With,
+"Master of Data Science","Ongoing","University of Canberra",
+"R for Data Science","2019","Datacamp",
+"Python for Data Science","2018","Datacamp",
+"Bachelor of Arts","2008","ANU",
+"Tableau Training","2015","QR Training",
+"Python for Scientists and Engineers","2015","Python Charmers",
+"SAS Programming 1: Essentials","2015","SAS",
+"SAS Programming 2: Data Manipulation Techniques","2015","SAS",
+"Siebel 8.1.x Technical Foundations","2015","Oracle",
+"SAP Business Objects Web Intelligence: Report Design I","2015","SAP",
+"SAP Business Objects Web Intelligence: Report Design II","2015","SAP",
+"DB2 SQL Workshop","2014","Learnquest",
+"Introduction to Law Enforcement Intelligence","2011","AFP"
+) %>% 
+  brief_entries(What, When, With)
+```
+
+# Professional Skills
+
+*	**SAP Business Objects** business intelligence ETL, universe, and report design
+*	**R** data wrangling and analytics
+*	**Git** version control
+*	**Power BI** data transformation and visual analytics
+*	**SAS** programming, database integration, data manipulation, data cleansing and statistical analysis
+*	**Tableau** business intelligence report design
+*	**SQL** Oracle, DB2, Microsoft SQL, MySQL, MariaDB
+*	**HTML/JavaScript**
+*	**Python** data science
+*	**Visio** process modelling
+*	**Project** project management
+*	**Datagrip, Pycharm, Vim, RStudio**
+
+# Referees
+
+* **Bradley Creevey Director**, Governance Framework 0466 150 709
+* **Zhong Zheng Manager**, Business Intelligence Services 02 6206 8426
+
+
